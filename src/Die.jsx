@@ -6,10 +6,10 @@ export default function Die(props) {
     return (
 
         <div 
-        className="die" 
+        className="block" 
         
         >
-        <p className="number">{props.value}</p> 
+        <h2 className="number">{props.value}</h2> 
         </div>
     )
 }
