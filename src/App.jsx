@@ -32,6 +32,7 @@ export default function App() {
             newDice.push(generateNewDie())
         }
         return newDice
+        
     }
     
 /**
