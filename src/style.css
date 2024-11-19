@@ -11,7 +11,7 @@ body {
 
 main {
     background-color: #F5F5F5;
-    height: 400px;
+    height: 500px;
     max-width: 800px;
     border-radius: 5px;
     padding: 20px;
@@ -119,15 +119,16 @@ main {
     transform: translate(-40%, 160%);
 }
 .roll-dice {
-    height: 50px;
+    height: 60px;
     width: 150px;
     border: none;
     border-radius: 6px;
-    background-color: #5035FF;
+    background-color: #415c95;
     color: white;
     font-size: 1.2rem;
     font-family: 'Karla', sans-serif;
     cursor: pointer;
+    
 }
 
 .roll-dice:focus {
@@ -136,4 +137,31 @@ main {
 
 .roll-dice:active {
     box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+/*--------------------------------score-----------------*/
+
+.container-score {
+    display: flex;
+    background-color: whitesmoke;
+    border: 2px solid;
+    border-radius: 6px;
+    text-align: center;
+    margin: 3px;
+    height: 80px;
+    
+}
+
+.rounds {
+    border-right: 2px solid;
+    margin: 0;
+    padding: 5px;
+   
+    
+
+}
+.timer {
+    
+    margin: 0;
+    padding: 5px;
 }
